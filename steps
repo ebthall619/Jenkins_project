@@ -1,0 +1,26 @@
+Steps:
+git config --global user.name "Segun Ajibola"
+git config --global user.email "youremail@gmail.com"
+git remote add origin  حطي بعدها لينك الريبو بتاعك))
+sudo apt-get install git-flow
+git-flow init
+git branch develop
+git checkout
+touch Jenkinsfile
+vim Jenkinsfile
+git add .
+git commit -m “jenkins file”
+git push origin develop
+2.1 Install the necessary plugins in Jenkins if not already available, such as Git and Pipeline.
+2.2 Configure Jenkins to connect to GitHub:
+Go to "Manage Jenkins" > "Manage Plugins" > "Available" and install "GitHub Integration Plugin".
+Set up credentials in Jenkins for GitHub (username and token).
+2.3 Create a new pipeline job:
+Select "New Item", name your pipeline (e.g., "GitHub Pipeline"), and choose "Pipeline" as the type.
+In the pipeline configuration, select "Pipeline script from SCM" and choose "Git" as the SCM.
+Enter the repository URL and credentials.
+Specify the branch to build (e.g., */develop).
+Set up credentials: 1- manage Jenkins 
+2- credentials 
+3- click global 
+4- add credentials >> username and password github
