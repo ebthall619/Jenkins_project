@@ -72,23 +72,23 @@ git push origin develop
 ```
 # 6- Then 
 
-6.1 Install the necessary plugins in Jenkins if not already available, such as Git and Pipeline.
+6.1- Install the necessary plugins in Jenkins if not already available, such as Git and Pipeline.
 
-6.2 Configure Jenkins to connect to GitHub:
+6.2- Configure Jenkins to connect to GitHub:
 
-6.3 Go to "Manage Jenkins" > "Manage Plugins" > "Available" and install "GitHub Integration Plugin".
+6.3- Go to "Manage Jenkins" > "Manage Plugins" > "Available" and install "GitHub Integration Plugin".
 
-6.4 Set up credentials in Jenkins for GitHub (username and token).
+6.4- Set up credentials in Jenkins for GitHub (username and token).
 
-6.5 Create a new pipeline job:
+6.5- Create a new pipeline job:
 
-6.6 Select "New Item", name your pipeline (e.g., "GitHub Pipeline"), and choose "Pipeline" as the type.
+6.6- Select "New Item", name your pipeline (e.g., "GitHub Pipeline"), and choose "Pipeline" as the type.
 
-6.7 In the pipeline configuration, select "Pipeline script from SCM" and choose "Git" as the SCM.
+6.7- In the pipeline configuration, select "Pipeline script from SCM" and choose "Git" as the SCM.
 
-6.8 Enter the repository URL and credentials.
+6.8- Enter the repository URL and credentials.
 
-6.9 Specify the branch to build (e.g., */develop).
+6.9- Specify the branch to build (e.g., */develop).
 
 7- Set up credentials:
 
