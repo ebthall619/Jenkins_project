@@ -7,7 +7,7 @@ Set up Jenkins to automatically build and test code changes from a GitHub reposi
 
 3- open github account create repo create two braches (main branch and develp branch from main)
 
-4- open shell :
+# open Terminal Shell :
 
 ```bash
 git config --global user.name "Your Name"
@@ -70,7 +70,8 @@ git commit -m “jenkins file”
 ```bash
 git push origin develop
 ```
-Then 
+# Then 
+
 Install the necessary plugins in Jenkins if not already available, such as Git and Pipeline.
 
 Configure Jenkins to connect to GitHub:
@@ -90,6 +91,7 @@ Enter the repository URL and credentials.
 Specify the branch to build (e.g., */develop).
 
 Set up credentials:
+
 1- manage Jenkins
 
 2- credentials
