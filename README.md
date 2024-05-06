@@ -105,5 +105,7 @@ git push origin develop
 
 ![jenkinspipeline](https://github.com/ebthall619/Jenkins_project/assets/81996620/40289491-2559-452f-a8be-62c5f9787d25)
 
+![jenkins2](https://github.com/ebthall619/Jenkins_project/assets/81996620/46141b22-cf5d-47f2-aa09-62b2d24d732e)
+
 # Conclusion
 By following these steps, you can set up Jenkins to connect to your GitHub repository, use the necessary plugins (as Git and Pipeline), and configure credentials securely for accessing your GitHub projects within Jenkins pipelines. 
