@@ -17,7 +17,7 @@ git config --global user.name "Your Name"
 git config --global user.email "youremail@gmail.com"
 ```
 ```bash
-git remote add origin aadd "your link repository name"
+git remote add origin add "your link repository name"
 ```
 ```bash
 sudo apt-get install git-flow
