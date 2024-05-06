@@ -6,7 +6,7 @@ Set up Jenkins to automatically build and test code changes from a GitHub reposi
 # open github account create repo create two braches (main branch and develp branch from main)
 # open shell :
 ```bash
-git config --global user.name "Segun Ajibola"
+git config --global user.name "Your Name"
 ```
 ```bash
 git config --global user.email "youremail@gmail.com"
@@ -80,3 +80,5 @@ Specify the branch to build (e.g., */develop).
 2- credentials 
 3- click global 
 4- add credentials >> username and password github
+# Conclusion
+By following these steps, you can set up Jenkins to connect to your GitHub repository, use the necessary plugins (as Git and Pipeline), and configure credentials securely for accessing your GitHub projects within Jenkins pipelines. 
