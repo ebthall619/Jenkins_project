@@ -1,5 +1,39 @@
 # Jenkins_project
 Set up Jenkins to automatically build and test code changes from a GitHub repository using a Jenkinsfile. Ensure that the Git Flow branching model is applied to manage the development process.
+# Prequistes:
+1- AWS account 
+
+2- Github acount 
+
+3- Jenkins install
+# Jenkins installation on ubuntu :
+```bash
+sudo apt update
+```
+```bash
+sudo apt install openjdk-11-jdk -y
+```
+```bash
+free -m
+```
+```bash
+sudo wget -O /usr/share/keyrings/jenkins-keyring.asc   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+```
+```bash
+
+echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]"   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+```
+```bash
+sudo apt-get update
+```
+```bash
+
+sudo apt-get install jenkins -y
+```
+
+```bash
+sudo systemctl enable jenkins
+```
 # Steps:
 
 1- install jenkins on ubuntu instance on aws account
