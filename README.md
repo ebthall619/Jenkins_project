@@ -33,6 +33,7 @@ touch Jenkinsfile
 ```bash
 vim Jenkinsfile
 ```
+# Copy and paste pipeline inside vim file
 ```bash
 pipeline {
     agent any
