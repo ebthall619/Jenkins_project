@@ -2,9 +2,13 @@
 Set up Jenkins to automatically build and test code changes from a GitHub repository using a Jenkinsfile. Ensure that the Git Flow branching model is applied to manage the development process.
 # Steps:
 1- install jenkins on ubuntu instance on aws account
-2- access jenkins 
+
+2- access jenkins
+
 3- open github account create repo create two braches (main branch and develp branch from main)
+
 4- open shell :
+
 ```bash
 git config --global user.name "Your Name"
 ```
