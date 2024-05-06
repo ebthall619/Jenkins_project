@@ -1,5 +1,4 @@
 # Jenkins_project
-Jenkins_project
 Set up Jenkins to automatically build and test code changes from a GitHub repository using a Jenkinsfile. Ensure that the Git Flow branching model is applied to manage the development process.
 # Steps:
 # install jenkins on ubuntu instance on aws account
