@@ -1,13 +1,14 @@
 # Jenkins_project
 Set up Jenkins to automatically build and test code changes from a GitHub repository using a Jenkinsfile. Ensure that the Git Flow branching model is applied to manage the development process.
 # Steps:
-# 1- install jenkins on ubuntu instance on aws account
 
-# 2- access jenkins
+1- install jenkins on ubuntu instance on aws account
 
-# 3- open github account create repo create two braches (main branch and develp branch from main)
+2- access jenkins
 
-# 4- Open Terminal Shell :
+3- open github account create repo create two braches (main branch and develp branch from main)
+
+4- Open Terminal Shell :
 
 ```bash
 git config --global user.name "Your Name"
@@ -37,7 +38,7 @@ touch Jenkinsfile
 ```bash
 vim Jenkinsfile
 ```
-# 5- Copy and paste pipeline inside vim file
+5- Copy and paste pipeline inside vim file
 ```bash
 pipeline {
     agent any
@@ -70,7 +71,7 @@ git commit -m “jenkins file”
 ```bash
 git push origin develop
 ```
-# 6- Then 
+6- Then 
 
 6.1- Install the necessary plugins in Jenkins if not already available, such as Git and Pipeline.
 
