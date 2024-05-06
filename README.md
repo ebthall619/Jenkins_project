@@ -1,10 +1,10 @@
 # Jenkins_project
 Set up Jenkins to automatically build and test code changes from a GitHub repository using a Jenkinsfile. Ensure that the Git Flow branching model is applied to manage the development process.
 # Steps:
-# install jenkins on ubuntu instance on aws account
-# access jenkins 
-# open github account create repo create two braches (main branch and develp branch from main)
-# open shell :
+1- install jenkins on ubuntu instance on aws account
+2- access jenkins 
+3- open github account create repo create two braches (main branch and develp branch from main)
+4- open shell :
 ```bash
 git config --global user.name "Your Name"
 ```
@@ -66,16 +66,17 @@ git commit -m “jenkins file”
 ```bash
 git push origin develop
 ```
-# Install the necessary plugins in Jenkins if not already available, such as Git and Pipeline.
-# Configure Jenkins to connect to GitHub:
-# Go to "Manage Jenkins" > "Manage Plugins" > "Available" and install "GitHub Integration Plugin".
-# Set up credentials in Jenkins for GitHub (username and token).
-# Create a new pipeline job:
-# Select "New Item", name your pipeline (e.g., "GitHub Pipeline"), and choose "Pipeline" as the type.
-# In the pipeline configuration, select "Pipeline script from SCM" and choose "Git" as the SCM.
+Then 
+Install the necessary plugins in Jenkins if not already available, such as Git and Pipeline.
+Configure Jenkins to connect to GitHub:
+Go to "Manage Jenkins" > "Manage Plugins" > "Available" and install "GitHub Integration Plugin".
+Set up credentials in Jenkins for GitHub (username and token).
+Create a new pipeline job:
+Select "New Item", name your pipeline (e.g., "GitHub Pipeline"), and choose "Pipeline" as the type.
+In the pipeline configuration, select "Pipeline script from SCM" and choose "Git" as the SCM.
 Enter the repository URL and credentials.
 Specify the branch to build (e.g., */develop).
-# Set up credentials:
+Set up credentials:
 1- manage Jenkins 
 2- credentials 
 3- click global 
